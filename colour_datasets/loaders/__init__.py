@@ -16,6 +16,7 @@ from .ebner1998 import Ebner1998DatasetLoader, build_Ebner1998
 from .hung1995 import Hung1995DatasetLoader, build_Hung1995
 from .jiang2013 import Jiang2013DatasetLoader, build_Jiang2013
 from .labsphere2019 import Labsphere2019DatasetLoader, build_Labsphere2019
+from .luo1997 import Luo1997DatasetLoader, build_Luo1997
 from .luo1999 import Luo1999DatasetLoader, build_Luo1999
 from .xrite2016 import XRite2016DatasetLoader, build_XRite2016
 
@@ -27,6 +28,7 @@ __all__ += ['Hung1995DatasetLoader', 'build_Hung1995']
 __all__ += ['Jiang2013DatasetLoader', 'build_Jiang2013']
 __all__ += ['Jiang2013DatasetLoader', 'build_Jiang2013']
 __all__ += ['Labsphere2019DatasetLoader', 'build_Labsphere2019']
+__all__ += ['Luo1997DatasetLoader', 'build_Luo1997']
 __all__ += ['Luo1999DatasetLoader', 'build_Luo1999']
 __all__ += ['XRite2016DatasetLoader', 'build_XRite2016']
 
@@ -37,6 +39,7 @@ DATASET_LOADERS = CaseInsensitiveMapping({
     Hung1995DatasetLoader.ID: build_Hung1995,
     Jiang2013DatasetLoader.ID: build_Jiang2013,
     Labsphere2019DatasetLoader.ID: build_Labsphere2019,
+    Luo1997DatasetLoader.ID: build_Luo1997,
     Luo1999DatasetLoader.ID: build_Luo1999,
     XRite2016DatasetLoader.ID: build_XRite2016,
 })
